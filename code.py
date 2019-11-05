@@ -18,7 +18,7 @@ def NLP(blob, choice):
 
 if __name__ == '__main__':
     blob = TextBlob(input('Enter your text: '))
-    print(' 1. Sentiment Analysis\n 2. Part of Speech Breakdown \n 3. Extract Noun Phrases \n 4. Translate')
+    print(' 1. Sentiment Analysis\n 2. Translate')
     choice = input('Enter the number of your analysis choice ')
 
     NLP(blob,choice)
